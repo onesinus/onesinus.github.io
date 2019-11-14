@@ -6,7 +6,6 @@
 
 header{
     height: 15%;
-    text-align: center;
 }
 
 header, footer{
@@ -25,6 +24,9 @@ header, footer{
     font-size: 22pt;
     text-decoration: underline;
     font-weight: bold;
+    padding-top: 0.5rem;
+    text-align: center;
+    margin-right: 1rem;
 }
 
 #menu{
@@ -38,7 +40,12 @@ header li{
     margin: 7%;
 }
 
-#menu li:hover{
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#menu li a:hover{
     background-color: #ebe7e0;
     color: #44749d;
     cursor: pointer;
@@ -68,4 +75,14 @@ footer li{
 
 #info-1{
     margin-left: 1%;
+}
+
+#info-2 img{
+    width: 3%;
+    margin-right: 3%;
+    margin-top: -0.8%;
+}
+
+#home, #portfolios, #ebooks, #videos{
+    height: 2000px;
 }
