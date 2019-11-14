@@ -5,7 +5,10 @@
 }
 
 header{
-    height: 15%;
+    height: 12%;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 header, footer{
@@ -92,6 +95,11 @@ footer li{
     font-size: 20pt;
 }
 
+.judul-kiri{
+    font-size: 20pt;
+    text-align: left;
+}
+
 .judul-2{
     font-size: 18pt;
 }
@@ -120,6 +128,7 @@ p{
 }
 
 #home{
+    margin-top: 6%;
     background: #6DB3F2 url('../img/bg2.jpeg') repeat-x;
     background-size: 100% 100%;
 }
@@ -144,4 +153,17 @@ p{
 .content-gray-2{
     background-color: rgba(248, 247, 216, 0.2);
     color: white;
+}
+
+.button-up img{
+    width: 3%;
+    position: fixed;
+    right: 0.2%;
+    bottom: 1%;
+    opacity: 0.5;
+}
+
+.button-up img{
+    opacity: 1;
+    cursor: pointer;
 }
