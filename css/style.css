@@ -161,9 +161,12 @@ p{
 }
 
 #portfolios li:hover{
-    cursor: pointer;
-    width: 25%;
     opacity: 1;
+    cursor: pointer;
+}
+
+#portfolios li:active{
+    width: 25%;
 }
 
 
