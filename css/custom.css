@@ -1,0 +1,54 @@
+/* Spacing */
+.ml-1{
+    margin-left: 1%;
+}
+
+.mr-1{
+    margin-right: 1%;
+}
+
+.mt-1{
+    margin-top: 1%;
+}
+
+.mb-1{
+    margin-bottom: 1%;
+}
+
+.pt-1{
+    padding-top: 1%;
+}
+
+.pl-1{
+    padding-left: 1%;
+}
+
+.pr-1{
+    padding-right: 1%;
+}
+
+/* Spacing End */
+
+/* Font size */
+.fs-20{
+    font-size: 20pt;
+}
+
+.fs-24{
+    font-size: 24pt;
+}
+
+.fs-36{
+    font-size: 36pt;
+}
+/* Font size end */
+
+/* Text Align */
+.center{
+    text-align: center;
+}
+
+.right{
+    text-align: right;
+}
+/* Text Align End */
