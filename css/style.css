@@ -136,10 +136,10 @@ ul li.active a{
 
 .container .box{
     position: relative;
-    width: 250px;
-    height: 250px;
+    width: 500px;
+    height: 500px;
     background: #ff0;
-    margin: 30px;
+    margin: 30px auto;
     box-sizing: border-box;
     display: inline-block;
 }
@@ -161,10 +161,10 @@ ul li.active a{
 
 .container .box .details{
     position: absolute;
-    top: 10px;
-    left: 10px;
-    bottom: 10px;
-    right: 10px;
+    top: 0;
+    left: 0;
+    bottom: -5px;
+    right: 0;
     background: rgba(0, 0, 0, .5);
     transform: scaleY(0);
     transition: transform .5s;
@@ -178,17 +178,19 @@ ul li.active a{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    text-align: center;
 }
 
 .container .box .details .content h2{
     margin: 0;
     padding: 0;
-    font-size: 20px;
+    font-size: 22pt;
 }
 
 .container .box .details .content p{
-    margin: 10px 0 0;
+    margin: 10% 0 0;
     padding: 0;
+    font-weight: bolder;
 }
 
 /* End Image box style */
