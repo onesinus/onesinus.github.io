@@ -58,8 +58,13 @@ ul li.active a{
 
 .title h1{
     color: #fff;
-    font-size: 45px;
+    font-size: 36pt;
+}
 
+.title p{
+    color: #fff;
+    font-size: 20pt;
+    text-align: center;
 }
 
 .button{
@@ -121,3 +126,13 @@ ul li.active a{
     opacity: 1;
 }
 /* Scroll Top */
+
+/* Copyright */
+
+.copyright{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+/* Copyright */
