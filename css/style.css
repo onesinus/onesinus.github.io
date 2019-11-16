@@ -346,3 +346,12 @@ ul li.active a{
     margin-top: 5%;
 }
 /* Iframe End */
+
+/* Information span class */
+.information{
+    color: red;
+    font-size: 10pt;
+    background-color: #fff;
+    font-style: italic;
+}
+/* End Information */
