@@ -193,15 +193,15 @@ ul li.active a{
     font-weight: bolder;
 }
 
-.container .box .details .content .button{
-    margin-top: 20%;
+.container .box .details .content .btn{
+    margin-top: 3%;
 }
 
 
 /* End Image box style */
 
 /* Button Style */
-.button{
+.btn{
     background-color: #4CAF50;
     border: none;
     color: #fff;
@@ -214,7 +214,17 @@ ul li.active a{
     cursor: pointer;
 }
 
-.button-gray{
+.btn:hover{
+    background-color: blue;
+    color: #fff;
+}
+
+.btn-gray{
     background-color: rgb(110, 107, 107);
+}
+
+.btn-gray:hover{
+    background-color: rgb(110, 107, 107);
+    cursor: not-allowed;
 }
 /* End Button Style */
