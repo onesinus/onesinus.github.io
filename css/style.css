@@ -193,4 +193,28 @@ ul li.active a{
     font-weight: bolder;
 }
 
+.container .box .details .content .button{
+    margin-top: 20%;
+}
+
+
 /* End Image box style */
+
+/* Button Style */
+.button{
+    background-color: #4CAF50;
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button-gray{
+    background-color: rgb(110, 107, 107);
+}
+/* End Button Style */
