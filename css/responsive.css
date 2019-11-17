@@ -13,7 +13,7 @@
     }
 
     .title{
-        margin-top: -10%;
+        margin-top: -5%;
     }
 
     .title p{
@@ -24,4 +24,9 @@
         top: 80%;
         text-align: center;
     }
+
+    .iframe-container iframe{
+        margin-left: 25px;
+    }
+
 }

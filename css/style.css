@@ -73,7 +73,7 @@ ul li.active a{
 /* Portfolios style */
 #portfolios{
     background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('../img/bg1.jpeg');
-    height: 100vh;
+    height: 100%;
     background-size: cover;
     background-position: center;
 }
@@ -83,7 +83,7 @@ ul li.active a{
 /* Skills style */
 #skills{
     background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('../img/bg3.jpg');
-    height: 100vh;
+    height: 100%;
     background-size: cover;
     background-position: center;
 }
@@ -94,7 +94,7 @@ ul li.active a{
 /* Videos style */
 #videos{
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/bg4.jpg');
-    height: 100vh;
+    height: 100%;
     background-size: cover;
     background-position: center;
 }
